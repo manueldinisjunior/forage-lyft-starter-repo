@@ -7,7 +7,6 @@ from models.palindrome import Palindrome
 from models.rorschach import Rorschach
 from models.thovex import Thovex
 
-
 class TestCalliope(unittest.TestCase):
     def test_battery_should_be_serviced(self):
         today = datetime.today().date()
